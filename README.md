@@ -1,6 +1,5 @@
-# How Would Yoda Say it?
------
-
+How Would Yoda Say it?
+=============
 Use a Python simple server to run this. Check if you have Python installed by typing
 ``` which python ```
 into your terminal.
