@@ -1,0 +1,34 @@
+body {
+  background: #FFFFF2;
+  font-family: ariel;
+}
+
+h1 {
+  color: #555;
+  margin: 0;
+}
+
+h3 {
+  background: #FBF5E6;
+  color: #555;
+  padding: 5px 2px 5px 2px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 477px;
+}
+
+#input {
+  background: #FBF5E6;
+  display: inline;
+}
+
+#loading {
+  padding: 15px 0 0 400px;
+}
+
+#yoda-pic {
+  padding: 0;
+  display: inline;
+  margin: 0;
+  position: absolute;
+}
