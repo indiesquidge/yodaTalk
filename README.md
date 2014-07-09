@@ -8,4 +8,4 @@ If you don't have Python installed, go [here](https://www.python.org/download/)
 
 Clone repo, navigate into the main directory, and type
 ```python -m SimpleHTTPServer ```
-in to your terminal. It should start serving on a port in your localhost, simply go to 'localhost:<portnumber>' to view the app.
+in to your terminal. It should start serving on a port (like 8000) in your localhost, simply go to 'localhost:8000' to view the app.
