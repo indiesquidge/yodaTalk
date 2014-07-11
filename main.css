@@ -1,6 +1,17 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #FFFFF2;
-  font-family: ariel;
+  font-family: arial;
+  margin: 0;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
 }
 
 h1 {
@@ -11,23 +22,33 @@ h1 {
 h3 {
   background: #FBF5E6;
   color: #555;
-  padding: 5px 2px 5px 2px;
+  padding: 5px;
   margin-bottom: 10px;
   border-radius: 5px;
-  width: 477px;
+  width: 63%;
+  text-align: center;
 }
 
-#input {
+.input {
+  float: left;
+}
+
+.input textarea {
   background: #FBF5E6;
-  display: inline;
 }
 
-#loading {
-  padding: 15px 0 0 400px;
+#input-text {
+  float: left;
+}
+
+.translation {
+  width: 20%;
+}
+
+#spinner {
+  display: none;
 }
 
 #yoda-pic {
-  padding: 0;
-  margin: 0;
-  position: absolute;
+  float: left;
 }

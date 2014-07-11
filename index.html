@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>YodaTalk</title>
-      <link rel="stylesheet" type="text/css" href="main.css"/>
-    </head>
-    <body>
+  <head>
+    <title>YodaTalk</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
       <h1>Yoda Translator</h1>
-      <h3> Enter some text and translate it to how Yoda would say it!</h3>
-      <div id="loading"></div>
-      <textarea rows="10" cols="50" id="input"></textarea>
-      <button id="button">Translate</button>
+      <h3>Enter some text and translate it to how Yoda would say it!</h3>
+      <div class="input">
+        <textarea rows="10" cols="50" id="input-text"></textarea>
+        <button class="button">Translate</button>
+        <div id="spinner">
+          <i class="fa fa-circle-o-notch fa-spin"></i>
+        </div>
+      </div>
       <img id="yoda-pic" src="Yoda.png">
       <div>
-        <p id="translation"></p>
+        <p class="translation"></p>
       </div>
       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script type="text/javascript" src="http://fgnass.github.io/spin.js/spin.min.js"></script>
       <script type="text/javascript" src="translation.js"></script>
-    </body>
+    </div>
+  </body>
 </html>
